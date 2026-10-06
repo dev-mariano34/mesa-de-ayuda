@@ -8,8 +8,8 @@ Aplicación full stack para el registro, asignación y seguimiento de incidencia
 
 | Capa | Tecnologías |
 |------|-------------|
-| Backend | ASP.NET Core 8 Web API · C# |
-| Acceso a datos | Entity Framework Core 8 (code-first, migraciones) |
+| Backend | ASP.NET Core 10 Web API · C# |
+| Acceso a datos | Entity Framework Core 10 (code-first, migraciones) |
 | Base de datos | Microsoft SQL Server 2022 |
 | Frontend | AngularJS 1.8 · Bootstrap 5 (responsive) |
 | Herramientas | Git · Docker · Swagger |
@@ -38,7 +38,7 @@ mesa-de-ayuda/
 
 ## Cómo ejecutarlo
 
-Requisitos: [.NET 8 SDK](https://dotnet.microsoft.com/download), Docker (o una instancia local de SQL Server) y Node.js para servir el frontend.
+Requisitos: [.NET 10 SDK](https://dotnet.microsoft.com/download), Docker (o una instancia local de SQL Server) y Node.js para servir el frontend.
 
 **1. Levantar SQL Server**
 
