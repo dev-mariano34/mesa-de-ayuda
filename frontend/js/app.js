@@ -40,7 +40,7 @@
 
     vm.estados = ['Abierta', 'EnProgreso', 'Resuelta', 'Cerrada'];
     vm.prioridades = ['Baja', 'Media', 'Alta', 'Critica'];
-    vm.filtros = { estado: '', prioridad: '' };
+    vm.filtros = { estado: null, prioridad: null };
     vm.incidencias = [];
     vm.tecnicos = [];
     vm.nueva = nuevaIncidencia();
