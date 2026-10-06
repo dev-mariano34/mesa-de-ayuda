@@ -1,0 +1,13 @@
+# .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+.vscode/
+appsettings.Development.json
+
+# Node / editores
+node_modules/
+.DS_Store
+Thumbs.db
